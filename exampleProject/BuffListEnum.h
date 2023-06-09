@@ -1,0 +1,10 @@
+#pragma once
+enum BuffType {
+	BUFF_TYPE_ENUM_START = -3,
+	BONUS_BALL_BUFF = -2,
+	EXTRA_LIFE_BUFF = -1,
+	EXPAND_PLATFORM = 0,
+	LASER_GUN = 1,
+	CATCH_THE_BALL = 2,
+	BUFF_TYPE_ENUM_END = 3,
+};
